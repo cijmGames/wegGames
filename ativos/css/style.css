@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+}
+/*==formatações repetidas==*/
+.bgd{
+    background: #a40505;
+}
+body{
+    background: #000;
+    position: relative;
+   
+}
+
+img{
+    max-width: 100%;
+}
+
+/*==inicio==*/
+.inicio{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    border-bottom: solid 10px black;
+   
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url( ../img/LOGOTIPO.png) center center/60px no-repeat;
+    font-size: 0;
+    top:-3%;
+    position: absolute;
+    
+}
+
+/*==menu bars==*/
+.btn-menu{
+    width: 60px;
+    height: 60px;
+    color: #000;
+    float: right;
+    cursor: pointer;
+    border-bottom: 3px solid red;
+    border-radius: 5px;
+   
+    
+}
+
+
+/*==menu close==*/
+
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    display: none;    
+    top: 0;
+    left: 0;
+     
+}
+.btn-close{
+    font-size: 2.3em;
+    float: right;
+    cursor: pointer;
+    color: orangered;
+    margin: 2% 8% 0 0;
+    
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+    list-style: none;
+    
+}
+.menu li{
+    padding: 1.5%;
+   
+}
+.menu li a{
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+    text-decoration: none;
+}
+.menu li a:hover{
+    border-bottom: solid 3px #fff;
+    color: #EE0000;
+    
+}
+
+/*==Banner==*/
+.banner, .banner-um{
+    width: 100%;
+    padding: 3% 4%;
+    text-align: center;
+    float: left;
+    
+}
+.banner{
+    background: url(../img/1.jpeg) no-repeat; 
+    border-bottom: solid 25px #FFE4E1;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.banner-um{
+    background: url(../img/2.jpg) no-repeat;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+/*===lançamentos==*/
+.lancamento{
+     background-color: rgba(255,255,255,0.6);
+     padding: 3% 2%;
+     margin: 0 auto;
+     width: 250px;
+     
+}
+.banner h3{
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000;
+    font-size: 1.5em;
+}
+/*==Videos==*/
+.videos{
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    margin-bottom: 4%;
+}
+.videos iframe{
+    width:100%; 
+    height:115px;
+}
+/*==Cadastro==*/
+.cadastro{
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 20%;
+    float: left;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3% 4%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+   
+  }
+  
+  .cadastro input{
+      padding: 2% 2%;
+      color: red;
+      border-radius: 5px;
+      margin: 2%;
+      text-align: center;
+  }
+  .cadastro button {
+      border-radius: 5px;
+      background-color:#8B0000;
+      padding: 2% 2%;
+      margin: 3%;
+      color: white;
+  }
+  .cadastro h2{
+      color: red;
+      margin: 2%;
+      text-align: center;
+  }
+  /*==login*/
+  .login input{
+      padding: 2%;
+      text-align: center;
+      margin: 2%;
+      border-radius: 5px;
+      color: red;
+      width: 60%;
+  }
+  .btn-login{
+      margin: 0 auto;
+      margin-bottom: 15%;
+    
+  }
+  .btn-ir button{
+      border-radius: 5px;
+      background-color:#8B0000;
+      padding: 2% 2%;
+      margin: 3%;
+      color: white;
+      
+  }
+  
+
+/*==rede social==*/
+.rede-social a{
+    margin-right: 4%;
+    font-size: 2em;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 2px 2px 4px rgba(0, 0, 7, 1);
+    text-decoration: none;
+}
+.rede-social a:hover{
+   text-shadow: 0 0 3px #FF0000;
+}
+/*==Pagina Download==*/
+.banner-dois{
+    background: url(../img/bg-down.jpg)no-repeat;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    
+}
+.inside-banner{
+    width: 100%;
+    float: left;
+}
+.container-fluid h2{
+    font-size: 1.5em;
+    color: #fff;
+}
+.container-fluid span{
+    float: right;
+}
+
+#grid{
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 2% 3%;
+}
+#grid h3{
+  color: #fff;
+  text-shadow: 3px 2px 5px red;
+  font-size: 1.5em;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  background-color: rgba(0,0,0,0.9);
+  padding: 1%;
+  border-radius: 5px;
+}
+
+#grid-dw{
+  background-color: rgba(255,255,255,0.9);
+  float: left;
+  border-radius: 5px;
+  padding:0.3%;
+  width: 100px;
+  height: 100px;
+  margin: 0.3%;
+  cursor: pointer;
+  
+  
+}
+#grid-dw a{
+  text-align: center;
+  
+}
+#grid-dw img{
+ border-radius: 7px 7px 0 0;
+ width: 100%;
+ height: 100%;
+
+
+}
+.imagens-dw {
+  margin: 0auto;
+  padding: 0px;
+}
+.banner-um{
+  margin: 0 auto;
+}
+/*==pagina de noticias==*/
+.bg-jogos{
+    float: left;
+    padding: 1% 2%;
+}
+.bg-jogos img{
+    width: 100%;
+    height: 25%;
+}
+/*== rodape ==*/
+
+.rodape{
+    height: 60px;
+    clear:both;
+    width: 100%;
+    padding: 1% 2%;
+    float: left;
+}
+.rodape p{
+    color: #fff;
+    float: left;
+}
+.voltar{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -1%;
+    
+}
+.infor{
+    margin-top: 2%;
+    
+}
+.infor a {
+    color: black;
+    text-decoration: none;
+}
+/* Reajuste de telas */
+
+/*== Smartphones==*/
+
+@media screen and (min-width: 480px){
+    .logo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url( ../img/LOGOTIPO.png) center center/60px no-repeat;
+    font-size: 0;
+   position: absolute;
+   top: -1.5%;
+   }
+   /* Cadastro */
+   .cadastro input{
+      padding: 2% 2%;
+      color: red;
+      border-radius: 2px;
+      float: right;
+      margin: 2px;
+      width: 100%;
+      text-align: center;
+      
+  }
+  
+  .cadastro button{
+      float: left;
+      border-radius: 5px;
+      background-color:#8B0000;
+      padding: 3%;
+      margin-top: 3% ;
+      color: white;
+      cursor: pointer;
+      float: left;
+  }
+  .cadastro p{
+      float: left;
+      margin: 2px;
+      text-align: center;
+  }
+  
+  }
+ 
+  /* Largura 640px*/
+  @media screen and (min-width: 640px){
+      
+  .logo{
+    width: 450px;
+    height: 130px;
+    float: left;
+    background: url( ../img/logo-1.png) center center/450px no-repeat;
+    margin-bottom: 3%;
+   
+  }
+  .inicio{
+      height: 150px;
+  }
+  .lancamento{
+     background-color: rgba(255,255,255,0.6);
+     padding: 3% 4%;
+     margin: 0 auto;
+     width: 450px;
+}
+.videos iframe{
+    width:100%; 
+    height:215px;
+}
+.videos{
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    margin-bottom: 4%;
+  }
+  
+  
+  }
+  
+  /* Largura 1280px*/
+  @media screen and (min-width: 768px){
+    
+  .inicio{
+      height: 150px;
+  }
+  .lancamento{
+     background-color: rgba(255,255,255,0.6);
+     padding: 3% 4%;
+     margin: 0 auto;
+     width: 950px;
+}
+.videos iframe{
+    width:100%; 
+    height:415px;
+}
+/*==login*/
+  .login input{
+      padding: 2%;
+      text-align: center;
+      margin: 0.3%;
+      border-radius: 2px;
+      color: red;
+      width: 80%;
+  }
+  .btn-login{
+      margin: 0 auto;
+      margin-bottom: 10%;
+    
+  }
+  .btn-close{
+      display: none;
+  }
+  .btn-menu{
+      display: none;
+  }
+  .menu{
+      width: auto;
+      height: 60px;
+      line-height: 60px;
+      float: right;
+      display: block;
+      position: static;
+      background: none;
+  }
+  .menu li{
+      padding: 0;
+      float: left;
+  }
+  .menu li a{
+      padding: 20px;
+      font-size: 1.3em;
+      color: white;
+  }
+  .menu li a:hover{color: #000;}
+  .cadastro input{font-size: 1.5em;}
+  
+  
+  }
+
+
