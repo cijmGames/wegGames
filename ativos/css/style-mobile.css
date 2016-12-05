@@ -1,0 +1,217 @@
+/* Reajuste de telas */
+
+/*== Smartphones==*/
+
+@media screen and (min-width: 320px){
+    
+    .rodape{
+    height: 100%;
+    text-align: center;
+    }
+    .rodape p{
+    font-size: 0.8em;
+    
+    }
+    #grid-dw{
+    width: 245px;
+    height: 295px;
+    margin-bottom: 2%;
+  }
+  .container-fluid h2{
+    font-size: 0.8em;
+}
+.noticia{
+    margin-bottom: 1%;
+}
+.contato h2{
+    font-size: 0.8em;
+    
+}
+
+}
+
+@media screen and (min-width: 480px){
+    .logo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url( ../img/LOGOTIPO.png) center center/60px no-repeat;
+    font-size: 0;
+   position: absolute;
+   top: -1.5%;
+   }
+   /* Cadastro */
+   .cadastro input{
+      padding: 2% 2%;
+      color: red;
+      border-radius: 2px;
+      float: right;
+      margin: 2px;
+      width: 100%;
+      text-align: center;
+      
+  }
+  
+  .cadastro button{
+      float: left;
+      border-radius: 5px;
+      background-color:#8B0000;
+      padding: 3%;
+      margin-top: 3% ;
+      color: white;
+      cursor: pointer;
+      float: left;
+  }
+  .cadastro p{
+      float: left;
+      margin: 2px;
+      text-align: center;
+  }
+  #grid-dw{
+    margin-left: 20%;
+    
+  }
+  
+  }
+ 
+  /* Largura 640px*/
+  @media screen and (min-width: 640px){
+      
+  .inicio{
+      height: 120px;
+  }
+  .lancamento{
+     background-color: rgba(255,255,255,0.6);
+     padding: 3% 4%;
+     margin: 0 auto;
+     width: 450px;
+}
+.videos iframe{
+    width:100%; 
+    height:215px;
+}
+.videos{
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
+    margin-bottom: 4%;
+  }
+  .container-fluid h2{
+    font-size: 1em;
+}
+#grid-dw{
+    margin: 0;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+  }
+  #grid-dw:nth-child(2){
+    margin-right: 0; 
+  }
+  
+  }
+  
+  /* Largura 768px*/
+  @media screen and (min-width: 768px){
+    .logo{
+    width: 285px;
+    height: 95px;
+    float: left;
+    background: url( ../img/logo-1.png) center center/285px no-repeat; 
+    margin-bottom: 3%;
+   
+  }
+  .inicio{
+      height: 120px;
+  }
+  #grid-dw{
+    margin-left: 6%;
+  } 
+  .lancamento{
+     background-color: rgba(255,255,255,0.6);
+     padding: 3% 4%;
+     margin: 0 auto;
+     width: 950px;
+}
+.videos iframe{
+    width:100%; 
+    height:415px;
+}
+/*==login*/
+  .login input{
+      padding: 2%;
+      text-align: center;
+      margin: 0.3%;
+      border-radius: 2px;
+      color: red;
+      width: 80%;
+  }
+  .btn-login{
+      margin: 0 auto;
+      margin-bottom: 10%;
+    
+  }
+  .btn-close{
+      display: none;
+  }
+  .btn-menu{
+      display: none;
+  }
+  .menu{
+      width: auto;
+      height: 60px;
+      line-height: 60px;
+      float: right;
+      display: block;
+      position: static;
+      background: none;
+  }
+  .menu li{
+      padding: 0;
+      float: left;
+  }
+  .menu li a{
+      padding: 20px;
+      font-size: 1.3em;
+      color: white;
+  }
+  .menu li a:hover{color: #000;}
+  .cadastro input{font-size: 1.5em;}
+  #grid-dw{
+    margin-left: 6%;
+  } 
+  .noticia{
+      width: 49%;
+      float: left;
+      margin-right: 2%;
+  }
+  .noticia:nth-child(2){
+      margin-right: 0; 
+  }
+  
+  }
+  /* Largura 960px*/
+  @media screen and (min-width: 960px){
+      
+ 
+      .noticia{width: 32%;}
+      .noticia:nth-child(2){margin-right: 2%;}
+      .noticia:nth-child(3){margin-right: 0;}
+  }
+  /* Largura 1024px*/
+  @media screen and (min-width: 1024px){
+      #grid-dw{
+    margin-left:2%;
+    float: left;
+    margin-right: 1%;
+  } 
+  #grid-dw:nth-child(2){
+    margin-right: 0;
+  } 
+  
+      
+  }
+
+

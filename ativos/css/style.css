@@ -6,7 +6,7 @@
     outline: none;
     font-weight: 300;
     box-sizing: border-box;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Days One', sans-serif;
 }
 /*==formatações repetidas==*/
 .bgd{
@@ -28,6 +28,7 @@ img{
     float: left;
     padding: 3% 4%;
     border-bottom: solid 10px black;
+    position: relative;
    
 }
 .logo{
@@ -112,6 +113,8 @@ img{
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
+  
+        
 }
 .banner-um{
     background: url(../img/2.jpg) no-repeat;
@@ -141,10 +144,12 @@ img{
     -moz-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
     box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
     margin-bottom: 4%;
+    
 }
 .videos iframe{
     width:100%; 
     height:115px;
+    margin-top: 3%;
 }
 /*==Cadastro==*/
 .cadastro{
@@ -156,6 +161,7 @@ img{
     padding: 3% 4%;
     margin-bottom: 2%;
     margin-right: 2%;
+    margin-top: 1%;
    
   }
   
@@ -178,6 +184,7 @@ img{
       margin: 2%;
       text-align: center;
   }
+  
   /*==login*/
   .login input{
       padding: 2%;
@@ -195,8 +202,13 @@ img{
   .btn-ir button{
       border-radius: 5px;
       background-color:#8B0000;
-      padding: 2% 2%;
+      padding: 1%;
       margin: 3%;
+      color: white;
+      
+  }
+  .btn-ir button a{
+      text-decoration: none;
       color: white;
       
   }
@@ -204,14 +216,20 @@ img{
 
 /*==rede social==*/
 .rede-social a{
-    margin-right: 4%;
+    margin-right: 3%;
     font-size: 2em;
     color: rgba(255,255,255,0.9);
     text-shadow: 2px 2px 4px rgba(0, 0, 7, 1);
     text-decoration: none;
+    font-size: 2em; 
+   
 }
-.rede-social a:hover{
-   text-shadow: 0 0 3px #FF0000;
+.rede-social a:last-child {
+    margin-right: 0;
+}
+.rede-social a:hover {
+    color: rgb(255,255,255);
+    text-shadow: 0 0 3px #FF0000;
 }
 /*==Pagina Download==*/
 .banner-dois{
@@ -232,7 +250,6 @@ img{
 .container-fluid span{
     float: right;
 }
-
 #grid{
   float: left;
   text-align: center;
@@ -257,12 +274,12 @@ img{
   float: left;
   border-radius: 5px;
   padding:0.3%;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 290px;
   margin: 0.3%;
   cursor: pointer;
-  
-  
+  margin-left: 2.5%;
+    
 }
 #grid-dw a{
   text-align: center;
@@ -277,7 +294,10 @@ img{
 }
 .imagens-dw {
   margin: 0auto;
+  float: left;
+  width: 100%;
   padding: 0px;
+  
 }
 .banner-um{
   margin: 0 auto;
@@ -286,16 +306,46 @@ img{
 .bg-jogos{
     float: left;
     padding: 1% 2%;
+    width: 40%;
+    height: 35%;
+    margin-bottom: 3%;
 }
 .bg-jogos img{
-    width: 100%;
-    height: 25%;
+    border-radius: 5px;
+    
 }
+.modal-body p{
+    color: black;
+    text-align: justify; 
+    line-height: 200%;
+    
+}
+
+.requisito{
+    margin-top: 3%;
+    float: left;
+    padding: 3%;
+    width: 100%;
+}
+.requisito h3{
+    width: 100%;
+    float: left;
+}
+.requisito ul{
+    line-height: 200%;
+    float: left;
+    margin-left: 3%;
+}
+.requisito li{
+    text-align: left;
+   
+}
+
 /*== rodape ==*/
 
 .rodape{
     height: 60px;
-    clear:both;
+    clear: both;
     width: 100%;
     padding: 1% 2%;
     float: left;
@@ -319,144 +369,106 @@ img{
     color: black;
     text-decoration: none;
 }
-/* Reajuste de telas */
-
-/*== Smartphones==*/
-
-@media screen and (min-width: 480px){
-    .logo{
-    width: 60px;
-    height: 60px;
-    float: left;
-    background: url( ../img/LOGOTIPO.png) center center/60px no-repeat;
-    font-size: 0;
-   position: absolute;
-   top: -1.5%;
-   }
-   /* Cadastro */
-   .cadastro input{
-      padding: 2% 2%;
-      color: red;
-      border-radius: 2px;
-      float: right;
-      margin: 2px;
-      width: 100%;
-      text-align: center;
-      
-  }
-  
-  .cadastro button{
-      float: left;
-      border-radius: 5px;
-      background-color:#8B0000;
-      padding: 3%;
-      margin-top: 3% ;
-      color: white;
-      cursor: pointer;
-      float: left;
-  }
-  .cadastro p{
-      float: left;
-      margin: 2px;
-      text-align: center;
-  }
-  
-  }
- 
-  /* Largura 640px*/
-  @media screen and (min-width: 640px){
-      
-  .logo{
-    width: 450px;
-    height: 130px;
-    float: left;
-    background: url( ../img/logo-1.png) center center/450px no-repeat;
-    margin-bottom: 3%;
-   
-  }
-  .inicio{
-      height: 150px;
-  }
-  .lancamento{
-     background-color: rgba(255,255,255,0.6);
-     padding: 3% 4%;
-     margin: 0 auto;
-     width: 450px;
-}
-.videos iframe{
-    width:100%; 
-    height:215px;
-}
-.videos{
+/*============ Pagina de Videos==========*/
+.page-videos{
+    overflow: hidden;
+    background-color: #040404;
     width: 100%;
+}
+.artigos{
+    width: 100%;
+    border-bottom: solid 5px red;
+    border-top: solid 5px red;
+    float: left;
+    padding: 2% 3%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.noticia{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+    
+}
+.noticias{
+    padding: 4%;
+}
+.noticias a{
+    list-style: none;
+    font-size: 1em;
+    color: #a40505;
+}
+.noticia img{
+    padding: 2%;
+    border-radius: 5px;
+    width: 95%;
+    height: 85%;
+}
+.modal-content p{
+    padding: 2%;
+    margin-top: 3%;
+    line-height: 1.5em;
+     text-align: justify;
+}
+.artigos h5{
+    color: white;
+    font-size: 1.5em;
+}
+/*----------Página de contatos - mapa----------*/
+.contatos-web{
+    width: 100%;
+    background-color: #1C1C1C;
+}
+.contato{
+    width: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.8);
+    padding: 2% 3%;
+    text-align: center;
+    border-radius: 5px;
     margin: auto;
-    -webkit-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
-    box-shadow: -8px 9px 12px -2px rgba(0,0,0,0.75);
-    margin-bottom: 4%;
-  }
-  
-  
-  }
-  
-  /* Largura 1280px*/
-  @media screen and (min-width: 768px){
     
-  .inicio{
-      height: 150px;
-  }
-  .lancamento{
-     background-color: rgba(255,255,255,0.6);
-     padding: 3% 4%;
-     margin: 0 auto;
-     width: 950px;
-}
-.videos iframe{
-    width:100%; 
-    height:415px;
-}
-/*==login*/
-  .login input{
-      padding: 2%;
-      text-align: center;
-      margin: 0.3%;
-      border-radius: 2px;
-      color: red;
-      width: 80%;
-  }
-  .btn-login{
-      margin: 0 auto;
-      margin-bottom: 10%;
     
-  }
-  .btn-close{
-      display: none;
-  }
-  .btn-menu{
-      display: none;
-  }
-  .menu{
-      width: auto;
-      height: 60px;
-      line-height: 60px;
-      float: right;
-      display: block;
-      position: static;
-      background: none;
-  }
-  .menu li{
-      padding: 0;
-      float: left;
-  }
-  .menu li a{
-      padding: 20px;
-      font-size: 1.3em;
-      color: white;
-  }
-  .menu li a:hover{color: #000;}
-  .cadastro input{font-size: 1.5em;}
-  
-  
-  }
+}
+.contato h5{
+    font-size:1.5em; 
+    color:#a40505;
+}
+.contato form{
+    margin: auto;
+    float: left;
+    width: 100%;
+}
+.contato input, textarea{
+    padding: 1% 2%;
+    color: red;
+    border-radius: 5px;
+    margin: 1%;
+    width: 90%;
+    text-align: center; 
+}
+.contato textarea{
+   margin: auto;
+}
+.contato button{
+    margin: 2%;
+    border-radius: 5px;
+    color: #fff;
+    background: #a40505;
+    padding: 1%;
+    
+}
 
+.mapa{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+}
+.mapa iframe{
+    width: 100%;
+    height: 400px;
+    float: left;
+    
+}
 

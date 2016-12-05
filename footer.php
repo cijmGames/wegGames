@@ -9,7 +9,7 @@
             $(".btn-menu").click(function(){
                 $(".menu").show();
             });
-            //feixar menu //
+            //fechar menu //
             $(".btn-close").click(function(){
                 $(".menu").hide();
             });

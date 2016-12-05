@@ -15,7 +15,10 @@ and open the template in the editor.
         
         <link rel="icon" href="ativos/img/icon.png">
         <link rel="stylesheet" href="ativos/css/style.css">
+        <link rel="stylesheet" href="ativos/css/style-mobile.css">
         <link href="ativos/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Days+One|Palanquin+Dark:400,700|Roboto+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption|Play:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="ativos/fonts/glyphicons-halflings-regular.svg">
         <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
@@ -28,15 +31,15 @@ and open the template in the editor.
     </head>
     <body>
         <header id="top"class="inicio bgd">
-            <a href="#page-1"><h1 class="logo">Jogos Potentes</h1></a>
+            <a href="index.php"><h1 class="logo">Jogos Potentes</h1></a>
             <button class="btn-menu"><i class="fa fa-bars fa-lg" title="Menu"></i></button>
             <nav class="menu">
                 <a href="#" class="btn-close"><p class="fa fa-times-circle"></p></a>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="downloads.php">Downloads</a></li>
-                    <li><a href="teste.php">Contato</a></li>
+                    <li><a href="videos.php">Videos</a></li>
+                    <li><a href="top-10.php">Top 10</a></li>
+                    <li><a href="contato.php">Contato</a></li>
                 </ul>
             </nav> 
         </header>

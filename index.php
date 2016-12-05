@@ -11,10 +11,11 @@
                   <input type="text" name="login" placeholder="EMAIL">
               </div>
               <div class="login">
-                  <input type="password" name="senha" placeholder="SENHA">
+                  <input type="password" name="senha" placeholder="SENHA"> 
               </div>
               <div class="btn-ir">
-                  <button>Entrar</button>
+                  <button type="submit" value="entrar">Entrar</button>
+                  <button type="submit" value="#cdt"><a href="#cdt">Cadastre-se</a></button>
               </div>
           </div>
         </div>
@@ -31,14 +32,14 @@
             
         </div>
       <div class="banner-um">
-          <div class="cadastro">
+          <div class="cadastro" id="cdt">
               <h2>Cadastre-se</h2>
               <form action="#" method="post">
                   <input type="text" name="nome" placeholder="NOME">
                   <input type="text" name="email" placeholder="EMAIL">
                   <input type="password" name="senha" placeholder="SENHA">
                   <input type="password" name="senha" placeholder="REPETIR SENHA">
-                  <button> cadastrar</button>
+                  <button type="submit" value="cadastrar"> Cadastrar</button>
               </form>
           </div>
           <div class="rede-social">

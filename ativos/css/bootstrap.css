@@ -1124,6 +1124,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -5826,8 +5827,8 @@ button.list-group-item-danger.active:focus {
   background-color: rgba(0,0,0,0.9);
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-          margin-top: 2%;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  margin-top: 1%;
           
 }
 .well blockquote {
@@ -5910,13 +5911,14 @@ button.close {
   position: relative;
   background-color: #fff;
   -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: 6px;
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+ 
 }
 .modal-backdrop {
   position: fixed;
@@ -5949,15 +5951,18 @@ button.close {
 .modal-body {
   position: relative;
   padding: 15px;
+  
 }
 .modal-footer {
   padding: 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
+
 .modal-footer .btn + .btn {
   margin-bottom: 0;
   margin-left: 5px;
+  
 }
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
