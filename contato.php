@@ -11,9 +11,10 @@
     <div class="container">
           <main class="contato">
             <h5>Fale Conosco</h5>
-            <form action="contato.php" method="post" name="form_contato">
+            <form action="email-contatos.php" method="post" name="form_contato">
+                <input type="text" name="assunto" placeholder="ASSUNTO">
                   <input type="text" name="nome" placeholder="NOME">
-                  <input type="text" name="email" placeholder="EMAIL">
+                  <input type="text" name="email" placeholder="E-MAIL">
                   <textarea placeholder="DEIXE AQUI SEU COMENTÁRIO" name="msg"></textarea>
                   <button type="submit" value="enviar">Enviar</button>
                   <button type="reset" value="limpar">Limpar</button>
@@ -21,5 +22,5 @@
            </main>
     </div>
       </div>
-<?php require_once './php_email/email-contatos.php';?>
+<?php include './php_email/email-contatos.php';?>
 <?php require_once './footer.php'; ?>

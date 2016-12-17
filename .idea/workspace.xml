@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb3aae4-3f04-48a2-8d46-eb878211faae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/img/LOGOTIPO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/img/LOGOTIPOA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/img/LOGOTIPOAA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/img/logo-1A.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/Views/pages/classes/Videos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/aside.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php_email/email-contatos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/assets/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/Views/pages/top.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/Views/pages/usuarios.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/painel/Views/pages/videos.php" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\banco.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp64\www\web-games\painel\js\jQuery.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contato.php" afterPath="$PROJECT_DIR$/contato.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php_email/email-contatos.php" afterPath="$PROJECT_DIR$/php_email/email-contatos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/painel/index.php" afterPath="$PROJECT_DIR$/painel/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\wamp64\www\web-games\painel\classes\Crud.php" afterPath="$PROJECT_DIR$/painel/Views/pages/classes/Crud.php" />
-      <change type="MOVED" beforePath="D:\wamp64\www\web-games\painel\classes\DB.php" afterPath="$PROJECT_DIR$/painel/Views/pages/classes/DB.php" />
-      <change type="MOVED" beforePath="D:\wamp64\www\web-games\painel\classes\Usuarios.php" afterPath="$PROJECT_DIR$/painel/Views/pages/classes/Usuarios.php" />
-      <change type="MOVED" beforePath="D:\wamp64\www\web-games\painel\classes\config.php" afterPath="$PROJECT_DIR$/painel/Views/pages/classes/config.php" />
     </list>
     <ignored path="web-games.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +31,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/painel/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -97,36 +51,28 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/painel/Views/pages/classes/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52380955">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <marker date="1482001059399" expanded="true" signature="1170:1614" placeholder="..." />
-                <marker date="1482001059399" expanded="true" signature="1274:1416" placeholder="..." />
-                <marker date="1482001059399" expanded="true" signature="1453:1595" placeholder="..." />
-                <marker date="1482001059399" expanded="true" signature="1672:2607" placeholder="..." />
-                <marker date="1482001059399" expanded="true" signature="1714:2210" placeholder="..." />
-                <marker date="1482001059399" expanded="true" signature="1795:2193" placeholder="..." />
-                <marker date="1482001059399" expanded="true" signature="2246:2594" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.115385">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -143,8 +89,8 @@
         <option value="$PROJECT_DIR$/painel/usuarios/index.phtml" />
         <option value="$PROJECT_DIR$/painel/aside.phtml" />
         <option value="$PROJECT_DIR$/painel/index.php" />
-        <option value="$PROJECT_DIR$/head.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/head.php" />
       </list>
     </option>
   </component>
@@ -188,7 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,12 +154,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -298,6 +244,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/painel/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painel/Views/pages/usuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painel/Views/pages/classes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/painel/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -444,14 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/painel/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/painel/Views/pages/usuarios.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -460,35 +438,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/painel/Views/pages/classes/config.php">
+    <entry file="file://$PROJECT_DIR$/painel/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/head.php">
+    <entry file="file://$PROJECT_DIR$/painel/Views/pages/classes/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.115385">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52380955">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <marker date="1482001059399" expanded="true" signature="1170:1614" placeholder="..." />
-            <marker date="1482001059399" expanded="true" signature="1274:1416" placeholder="..." />
-            <marker date="1482001059399" expanded="true" signature="1453:1595" placeholder="..." />
-            <marker date="1482001059399" expanded="true" signature="1672:2607" placeholder="..." />
-            <marker date="1482001059399" expanded="true" signature="1714:2210" placeholder="..." />
-            <marker date="1482001059399" expanded="true" signature="1795:2193" placeholder="..." />
-            <marker date="1482001059399" expanded="true" signature="2246:2594" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
