@@ -7,16 +7,23 @@
         </button>
         <div class="collapse" id="collapseExample">
           <div class="well">
-              <div class="login">
-                  <input type="text" name="login" placeholder="EMAIL">
-              </div>
-              <div class="login">
-                  <input type="password" name="senha" placeholder="SENHA"> 
-              </div>
-              <div class="btn-ir">
-                  <button type="submit" value="entrar">Entrar</button>
-                  <button type="submit" value="#cdt"><a href="#cdt">Cadastre-se</a></button>
-              </div>
+              <form action="index.php" method="post">
+                  <div class="login">
+                      <input type="text" name="login" placeholder="EMAIL">
+                  </div>
+                  <div class="login">
+                      <input type="password" name="senha" placeholder="SENHA">
+                  </div>
+                  <div class="btn-ir">
+                      <button type="submit" value="entrar">Entrar</button>
+                      <button type="submit" value="#cdt"><a href="#cdt">Cadastre-se</a></button>
+                  </div>
+              </form>
+              <?php
+              echo $_POST["login"] ;
+
+
+              ?>
           </div>
         </div>
             </div>

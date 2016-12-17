@@ -11,14 +11,15 @@
     <div class="container">
           <main class="contato">
             <h5>Fale Conosco</h5>
-              <form action="#" method="post">
+            <form action="contato.php" method="post" name="form_contato">
                   <input type="text" name="nome" placeholder="NOME">
                   <input type="text" name="email" placeholder="EMAIL">
-                  <textarea placeholder="DEIXE AQUI SEU COMENTÁRIO"></textarea>
+                  <textarea placeholder="DEIXE AQUI SEU COMENTÁRIO" name="msg"></textarea>
                   <button type="submit" value="enviar">Enviar</button>
                   <button type="reset" value="limpar">Limpar</button>
               </form>
            </main>
     </div>
       </div>
+<?php require_once './php_email/email-contatos.php';?>
 <?php require_once './footer.php'; ?>

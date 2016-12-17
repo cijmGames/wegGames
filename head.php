@@ -40,6 +40,14 @@ and open the template in the editor.
                     <li><a href="videos.php">Videos</a></li>
                     <li><a href="top-10.php">Top 10</a></li>
                     <li><a href="contato.php">Contato</a></li>
+                    <?php
+
+
+
+
+
+                    ?>
+                    <li><a href="contato.php">Painel</a></li>
                 </ul>
             </nav> 
         </header>
